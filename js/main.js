@@ -27,7 +27,7 @@ window.addEventListener('scroll', _.throttle(function() {
       opacity: 0,
       display: 'none'
     });
-    // .버튼 보이기
+    // 버튼 보이기
     gsap.to(toTopEl, 0.2, {
       x: 0
     });
